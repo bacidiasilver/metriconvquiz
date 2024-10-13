@@ -1,0 +1,72 @@
+/* Mengatur gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Mengatur tampilan untuk input dan tombol */
+input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Responsif untuk smartphone */
+@media (max-width: 600px) {
+    .card {
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
